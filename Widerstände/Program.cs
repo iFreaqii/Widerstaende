@@ -98,12 +98,12 @@ namespace Widerstände
                         {
                             RP = (R1 * R2) / (R1 + R2);
 
-                            Console.WriteLine("\nDer Gesamtwiderstand der Parallelschaltung beträgt: {0} Ohm. Der Widerstand für R1 beträgt {1} Ohm und für R2 {2} Ohm.\n\nFür die Parallelschaltung wurde folgende Formel benutzt: RP = (R1 * R2)/(R1 + R2) => {0} = ({1} * {2})/({1) + {2})", RP, R1, R2);
+                            Console.WriteLine("\nDer Gesamtwiderstand der Parallelschaltung beträgt: {0} Ohm. Der Widerstand für R1 beträgt {1} Ohm und für R2 {2} Ohm.\n\nFür die Parallelschaltung wurde folgende Formel benutzt: RP = (R1 * R2)/(R1 + R2) => "+ RP +" = (" + R1 + "*" + R2 + ")/("+ R1 +"+"+ R2 +")", RP, R1, R2);
                                                         
                             Console.WriteLine("\n\nWollen Sie einen weiteren Gesamtwiderstand ausrechnen?");
                             Console.WriteLine("Geben Sie bitte (j)a oder (n)ein in die Konsole!");
 
-                            weiterrechnen = Console.ReadLine();
+                            weiterrechnen = Convert.ToString(Console.ReadLine());
 
                             break;
                         }
@@ -114,7 +114,7 @@ namespace Widerstände
                             Console.WriteLine("Wollen Sie einen weiteren Gesamtwiderstand ausrechnen?");
                             Console.WriteLine("Geben Sie bitte (j)a oder (n)ein in die Konsole!");
 
-                            weiterrechnen = Console.ReadLine();
+                            weiterrechnen = Convert.ToString(Console.ReadLine());
 
                             break;
                         }
