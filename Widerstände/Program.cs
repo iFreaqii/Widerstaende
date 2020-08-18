@@ -86,7 +86,7 @@ namespace Widerstände
 
                             Console.WriteLine("\nDer Gesamtwiderstand der Reihenschaltung beträgt: {0} Ohm. Der Widerstand für R1 beträgt {1} Ohm und für R2 {2} Ohm.\n\nFolgende Berechnungsformel wurde genutzt: RR = R1 + R2 => {0} = {1} + {2}", RR, R1, R2);
 
-                                                     Console.WriteLine("\n\nWollen Sie einen weiteren Gesamtwiderstand ausrechnen?");
+                            Console.WriteLine("\n\nWollen Sie einen weiteren Gesamtwiderstand ausrechnen?");
                             Console.WriteLine("Geben Sie bitte (j)a oder (n)ein in die Konsole!");
 
                             weiterrechnen = Console.ReadLine();
